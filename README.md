@@ -1,14 +1,12 @@
 # Research Atlas (React)
 
-React-версия сайта Research Atlas: тот же дизайн (оригинальный CSS), языки RU / EN / KK и панель специальных возможностей.
+Research Atlas
 
 ## Запуск
 ```
 npm install
 npm run dev       # разработка
-npm run build     # сборка в dist/ (Vite)
 ```
-Без Vite: `npm i react react-dom esbuild && node scripts/build-esbuild.mjs` → `dist-offline/index.html` открывается двойным кликом.
 
 ## Структура
 - `src/i18n/{ru,en,kk}.js` — все тексты; язык переключается в шапке (сохраняется, `?lang=kk`).
