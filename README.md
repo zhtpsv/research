@@ -13,6 +13,12 @@
 
 ---
 
+## 🔗 Live Demo
+
+🌐 **Explore the Interactive Dashboard:** [research-kappa-six.vercel.app](https://research-kappa-six.vercel.app/)
+
+---
+
 ## 📖 About the Research Paper
 
 In teleoperated and automated driving systems, network delays, jitter, and packet loss can compromise vehicle safety when incoming control commands become stale (*Command Age*). 
