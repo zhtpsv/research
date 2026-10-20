@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="480" height="250" preserveAspectRatio="xMinYMin meet" viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="480" height="250"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-250)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="6" y="212" width="98" height="26" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="37.8984375" y="222" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,444) scale(1,-1)">Vehicle</text>
+			<path d="M 55,210 L 55,15 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.6; stroke-dasharray: 3, 3;"/>
+			<rect x="136" y="212" width="98" height="26" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="150.939208984375" y="222" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,444) scale(1,-1)">Remote control</text>
+			<path d="M 185,210 L 185,15 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.6; stroke-dasharray: 3, 3;"/>
+			<rect x="266" y="212" width="98" height="26" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="296.671142578125" y="222" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,444) scale(1,-1)">Channel</text>
+			<path d="M 315,210 L 315,15 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.6; stroke-dasharray: 3, 3;"/>
+			<rect x="376" y="212" width="98" height="26" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="396.75341796875" y="222" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,444) scale(1,-1)">Local arbiter</text>
+			<path d="M 425,210 L 425,15 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.6; stroke-dasharray: 3, 3;"/>
+			<path d="M 55,190 L 185,190 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="185 190, 180 193, 180 187" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,23%,29%); fill-rule: evenodd;"/>
+			<text x="82.11767578125" y="196" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,392) scale(1,-1)">state timestamp s</text>
+			<path d="M 185,155 L 315,155 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="315 155, 310 158, 310 152" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,23%,29%); fill-rule: evenodd;"/>
+			<text x="215.47998046875" y="161" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,322) scale(1,-1)">command and s</text>
+			<path d="M 315,120 L 425,120 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="425 120, 420 123, 420 117" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,23%,29%); fill-rule: evenodd;"/>
+			<text x="345.252685546875" y="126" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,252) scale(1,-1)">delay / loss</text>
+			<rect x="5" y="25" width="470" height="77" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<text x="12" y="87" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,174) scale(1,-1)">alt [command age &gt; threshold]</text>
+			<path d="M 425,67 L 55,67 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="55 67, 60 70, 60 64" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,23%,29%); fill-rule: evenodd;"/>
+			<text x="158.136474609375" y="73" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,146) scale(1,-1)">stop at chosen force OR local control</text>
+			<text x="12" y="46" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,92) scale(1,-1)">else [fresh remote mode]</text>
+			<path d="M 425,29 L 55,29 Z" style="stroke: rgb(12%,23%,29%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="55 29, 60 32, 60 26" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,23%,29%); fill-rule: evenodd;"/>
+			<text x="169.90185546875" y="35" style="font-family: Times; font-size: 11px;fill: rgb(12%,23%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">hold newest accepted command</text>
+		</g>
+	</g>
+</svg>

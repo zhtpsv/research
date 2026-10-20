@@ -1,0 +1,61 @@
+/* ============================================================================
+   Additions to the original stylesheet (main.css is the original design, untouched
+   apart from font sizes being multiplied by --fs for the accessibility panel).
+   ========================================================================== */
+
+/* wrapper that the dark / grayscale accessibility filters are applied to */
+.site {
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+/* language switcher + PDF button live together on the right side of the top bar */
+.topbar-tools {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: none;
+}
+.lang-switch {
+  flex: none;
+  padding: 3px;
+  gap: 2px;
+}
+.lang-switch button {
+  padding: 7px 11px;
+  font-size: calc(11px * var(--fs));
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  min-width: 38px;
+}
+
+/* the PDF/ZIP controls are links now, make them behave like the original buttons */
+a.small-btn,
+a.outline,
+a.primary {
+  cursor: pointer;
+}
+
+@media (max-width: 780px) {
+  .topbar-tools {
+    gap: 8px;
+  }
+  .topbar nav {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .lang-switch button {
+    padding: 6px 8px;
+    min-width: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .topbar {
+    gap: 8px;
+  }
+  .lang-switch button {
+    padding: 6px 6px;
+    min-width: 30px;
+    font-size: calc(10px * var(--fs));
+  }
+}
